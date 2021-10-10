@@ -37,9 +37,11 @@
 
 <!-- Hero section responsive with teblet and desktop menu -->
 <div class="px-8 pb-8 md:px-0 md:grid md:grid-cols-2 md:pb-0">
-    <div class="pb-4 md:pb-0"><img src="images/hero.svg" alt=""></div>
-    <div class="md:flex md:flex-col md:space-y-40">
-        <div class="hidden md:flex md:gap-5 md:text-1xs md:pt-4 md:justify-center md:font-semibold">
+    <div class="pb-4 md:pb-0 lg:hidden"><img src="images/hero.svg" alt=""></div>
+    <div class="hidden lg:block"><img src="images/lg-hero.svg" alt=""></div>
+    
+    <div class="md:flex md:flex-col md:space-y-40 lg:justify-between">
+        <div class="hidden md:flex md:gap-5 md:text-1xs md:pt-4 md:justify-center md:font-normal lg:gap-8 lg:pt-10">
             <div class=""><a class="border-b-2 border-white hover:border-green-800" href="">Acceuil</a></div>
             <div class=""><a class="border-b-2 border-white hover:border-green-800" href="">Histoire</a></div>
             <div class=""><a class="border-b-2 border-white hover:border-green-800" href="">Services</a></div>
@@ -51,23 +53,23 @@
             <h2 class="pt-2 text-base font-semibold tracking-widest text-gray-400">#Treatment</h2>
             <h1 class="py-1 pr-6 text-4xl font-semibold tracking-wide">Make You Even More <span class="text-green-800">The Best</span> </h1>
             <h3 class="py-2 text-sm tracking-normal text-gray-400">Consult your wishes to get the goods that suit your needs</h3>
-            <button class="px-4 py-2 mt-2 text-xs text-white bg-button">Book An Appointment</button>
+            <button class="px-4 py-2 mt-2 text-xs text-white bg-button lg:mb-10">Book An Appointment</button>
         </div>
     </div>
 </div>
 
 <!-- Advertisement section responsive tablet -->
-<div class="grid grid-cols-2 md:bg-no-repeat md:bg-cover md:py-4"style="background-image: url(images/bg.svg)">
-    <div class="order-2 py-4 pr-2 text-sm font-semibold text-white md:pr-16 md:text-lg md:leading-tight">
+<div class="grid grid-cols-2 md:bg-no-repeat md:bg-cover md:py-4 lg:py-7"style="background-image: url(images/bg.svg)">
+    <div class="order-2 py-4 pr-2 text-sm font-semibold text-white md:pr-16 md:text-lg md:leading-tight lg:text-xl">
         Top 10% best eyelash studios in the world by TripAdvisor
-        <div class="hidden md:text-gray-400 md:tracking-normal md:block md:leading-tight md:text-1xs md:font-normal md:pt-4">
+        <div class="hidden md:text-gray-400 md:tracking-normal md:block md:leading-tight md:text-1xs md:font-normal md:pt-4 lg:text-xs">
             Rin Beauty Studio opened the first eyelash studio in Bali in 2012. It was owned and managed by a Japanese beauty professional using 
             advanced quality products and techniques. We were selected as one of the top 10% best eyelash studios in the world by TripAdvisor. 
         </div>
     </div>
     <div class="grid order-1 place-content-center md:grid md:place-content-center">
         <img class="place-self-center md:hidden" src="images/tripadvisor.svg" alt="tripadvisor">
-        <img class="hidden md:block md:place-self-center md:h-3/4" src="images/tripadvisor-lg.svg" alt="tripadvisor">
+        <img class="hidden md:block md:place-self-center md:h-3/4 lg:h-4/5" src="images/tripadvisor-lg.svg" alt="tripadvisor">
     </div>
 </div>
 
